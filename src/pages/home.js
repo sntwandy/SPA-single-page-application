@@ -10,6 +10,6 @@ const home = () => {
         </div>
     `;
     return view;
-}
+};
 
 export default home;
