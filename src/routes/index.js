@@ -18,6 +18,9 @@ const router = async () => {
     const content = null || document.getElementById('content');
 
     header.innerHTML = await Header();
+
+    let hash = getHash();
+    let route = await resolveRoutes(hash);
 };
 
 export default router;
